@@ -17,6 +17,19 @@ table{
 
 #gomb
 {
+    margin-top: 2em;
     display: flex;
     justify-content: center;
+}
+
+#innergomb
+{
+    box-shadow: 5px 5px black;
+    border: none;
+    padding: 15px 32px;
+}   
+
+p
+{
+    margin-right: 10px;
 }

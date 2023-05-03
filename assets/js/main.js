@@ -21,6 +21,7 @@ function Kirajzol()
         for (let k = 0; k < 3; k++)
         {
            document.getElementById(g+""+k).style.background = clr[rnd]
+           document.getElementById("innergomb").style.backgroundColor = clr[rnd]
         }
     }
 }
@@ -45,7 +46,7 @@ function Katt(x)
         for (let j = 0; j < 3; j++) 
         {
             document.getElementById(i+""+j).style.backgroundColor = hatter
+            document.getElementById("innergomb").style.backgroundColor = hatter
         }
     }
 }
-
