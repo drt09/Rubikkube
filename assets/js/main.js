@@ -20,8 +20,8 @@ function Kirajzol()
     {
         for (let k = 0; k < 3; k++)
         {
-           document.getElementById(g+""+k).style.background = clr[rnd]
-           document.getElementById("innergomb").style.backgroundColor = clr[rnd]
+            document.getElementById(g+""+k).style.background = clr[rnd]
+            document.getElementById("innergomb").style.backgroundColor = clr[rnd]
         }
     }
 }
@@ -33,7 +33,7 @@ function Kever()
         for (let j = 0; j < 3; j++)
         {
            var rnd = Math.floor(Math.random()* 5)
-           document.getElementById(i+""+j).style.background = clr[rnd] 
+           document.getElementById(i+""+j).style.background = clr[rnd]
         }
     }
 }
